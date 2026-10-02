@@ -1,0 +1,37 @@
+store(&VERSION) '1.0'
+store(&NAME) 'Clavier Zarma'
+store(&COPYRIGHT) '© 2026 hassane7094'
+store(&AUTHOR) 'hassane7094 - Lomé'
+store(&LANGUAGE) 'dje'
+store(&LAYOUTFILE) 'zarma.keyman-touch-layout'
+
+begin Unicode > use(Main)
+
+group(Main) using keys
+
+c -- Voyelles nasales Zarma (minuscule) --
++ [K_A] > 'ã'
++ [K_E] > 'ẽ'
++ [K_I] > 'ĩ'
++ [K_O] > 'õ'
++ [K_U] > 'ũ'
+
+c -- Voyelles nasales Zarma (MAJUSCULE) --
++ [SHIFT K_A] > 'Ã'
++ [SHIFT K_E] > 'Ẽ'
++ [SHIFT K_I] > 'Ĩ'
++ [SHIFT K_O] > 'Õ'
++ [SHIFT K_U] > 'Ũ'
+
+c -- Consonnes spéciales --
++ [K_Q] > 'ŋ'
++ [SHIFT K_Q] > 'Ŋ'
++ [K_X] > 'ɲ'
++ [SHIFT K_X] > 'Ɲ'
+
+c -- Appui long : a -> ã, e -> ẽ etc --
++ [RALT K_A] > 'ã'
++ [RALT K_E] > 'ẽ'
++ [RALT K_I] > 'ĩ'
++ [RALT K_O] > 'õ'
++ [RALT K_U] > 'ũ'
