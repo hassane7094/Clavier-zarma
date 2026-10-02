@@ -1,0 +1,15 @@
+{
+  "phone": {
+    "displayUnderlying": false,
+    "layers": [
+      {
+        "id": "default",
+        "rows": [
+          {"id": 1, "keys": [{"id": "K_Q","text": "q"},{"id": "K_W","text": "w"},{"id": "K_E","text": "e","sk": [{"text": "ẽ","id": "T_1E"},{"text": "Ẽ","id": "T_1ES"}]},{"id": "K_R","text": "r"},{"id": "K_T","text": "t"},{"id": "K_Y","text": "y"},{"id": "K_U","text": "u","sk": [{"text": "ũ","id": "T_1U"},{"text": "Ũ","id": "T_1US"}]},{"id": "K_I","text": "i","sk": [{"text": "ĩ","id": "T_1I"},{"text": "Ĩ","id": "T_1IS"}]},{"id": "K_O","text": "o","sk": [{"text": "õ","id": "T_1O"},{"text": "Õ","id": "T_1OS"}]},{"id": "K_P","text": "p"}]},
+          {"id": 2, "keys": [{"id": "K_A","text": "a","sk": [{"text": "ã","id": "T_2A"},{"text": "Ã","id": "T_2AS"}]},{"id": "K_S","text": "s"},{"id": "K_D","text": "d"},{"id": "K_F","text": "f"},{"id": "K_G","text": "g"},{"id": "K_H","text": "h"},{"id": "K_J","text": "j"},{"id": "K_K","text": "k"},{"id": "K_L","text": "l"}]},
+          {"id": 3, "keys": [{"id": "K_Z","text": "z"},{"id": "K_X","text": "x","sk": [{"text": "ɲ","id": "T_3X"},{"text": "Ɲ","id": "T_3XS"}]},{"id": "K_C","text": "c"},{"id": "K_V","text": "v"},{"id": "K_B","text": "b"},{"id": "K_N","text": "n","sk": [{"text": "ŋ","id": "T_3N"},{"text": "Ŋ","id": "T_3NS"},{"text": "ɲ","id": "T_3N2"}]},{"id": "K_M","text": "m"}]}
+        ]
+      }
+    ]
+  }
+}
